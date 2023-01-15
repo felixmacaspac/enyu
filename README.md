@@ -7,4 +7,3 @@ This repository contains most of the projects/activities we did on our [Universi
 - [Tutorialspoint](https://www.tutorialspoint.com/java/index.htm)
 - [JavaSE Oracle Documentation](https://docs.oracle.com/javase/tutorial/) 
 - [JavaTPoint](https://www.javatpoint.com)
---
