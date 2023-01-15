@@ -1,4 +1,5 @@
 # Java Learnings & Java Activities
+This repository contains most of the projects I did in College. 
 
 ### Learning Resources
 - [Keep on Coding](https://www.youtube.com/watch?v=yMkFYxrDL2M&list=PLuVT2Ug8ISOUeumoUczDqraT_EO6qFdWt)
