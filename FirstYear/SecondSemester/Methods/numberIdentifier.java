@@ -21,3 +21,9 @@ pubic class ActivityOne {
     }
   } // method definition
 }
+
+/* 
+return type is "void"
+method name is "result"
+parameter list is "int number"
+*/
