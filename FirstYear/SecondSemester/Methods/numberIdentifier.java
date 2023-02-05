@@ -1,6 +1,6 @@
 import java.util.Scanner
 
-pubic class ActivityOne {
+public class ActivityOne {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Input a number: ");
