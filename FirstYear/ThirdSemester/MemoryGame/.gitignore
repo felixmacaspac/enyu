@@ -1,0 +1,20 @@
+# Compiled class files
+*.class
+
+# Compiled Jar files
+*.jar
+
+# NetBeans project files
+/nbproject/private/
+/nbbuild/
+/dist/
+/build/
+/nbmetadata/
+/nbactions.xml
+
+# IntelliJ IDEA project files
+*.iml
+*.iws
+*.ipr
+.idea/
+out/
