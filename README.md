@@ -1,6 +1,6 @@
 # NU Dasmariñas Activities
 
-This repository contains most of the projects/activities we did on our [University](https://www.facebook.com/NUDasmaPH/). The naming of the folders will be based on the subject codes I took on this course. 
+This repository contains most of the projects/activities I did on [University](https://www.facebook.com/NUDasmaPH/). The naming of the folders will be based on the subject codes I took on this course. 
 
 ## Subject Codes
 <details>
