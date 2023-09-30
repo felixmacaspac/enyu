@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="electionsystem.UserDashboardController">
+   <children>
+      <Pane layoutY="-5.0" prefHeight="74.0" prefWidth="605.0" style="-fx-background-color: #0084e3;">
+         <children>
+            <Text fill="WHITE" layoutX="75.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NU ELECTION">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="43.0" fitWidth="39.0" layoutX="20.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\felix\Documents\NetBeansProjects\ElectionSystem\assets\nu_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <TableView fx:id="tblVotingHome" layoutX="39.0" layoutY="137.0" prefHeight="300.0" prefWidth="528.0">
+        <columns>
+          <TableColumn fx:id="tblVotingElectionName" prefWidth="254.3999252319336" text="ELECTION NAME" />
+          <TableColumn fx:id="tblVotingElectionStatus" prefWidth="273.6001281738281" text="STATUS" />
+        </columns>
+      </TableView>
+      <Text fill="#717171" layoutX="39.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GUIDE: DOUBLE CLICK THE ELECTION OR ITEM ON THE TABLE TO REDIRECT ON THE VOTING PAGE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

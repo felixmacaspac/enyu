@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="544.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="electionsystem.CandidateManagementController">
+   <children>
+      <Text layoutX="172.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Candidate Management">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="222.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POSITION:" />
+      <Text layoutX="38.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME:" />
+      <TextField fx:id="txtCandidateName" layoutX="81.0" layoutY="114.0" prefHeight="26.0" prefWidth="130.0" />
+      <Button fx:id="btnDeleteCandidate" layoutX="416.0" layoutY="115.0" mnemonicParsing="false" onAction="#actDeleteCandidate" text="DELETE" />
+      <Button fx:id="btnEditCandidate" layoutX="476.0" layoutY="115.0" mnemonicParsing="false" onAction="#actEditCandidate" text="EDIT" />
+      <Button fx:id="btnAddCandidate" layoutX="520.0" layoutY="115.0" mnemonicParsing="false" onAction="#actAddCandidate" text="ADD" />
+      <TableView fx:id="tblCandidate" editable="true" layoutX="38.0" layoutY="154.0" prefHeight="362.0" prefWidth="523.0">
+        <columns>
+          <TableColumn fx:id="tblCandidateName" prefWidth="251.20001220703125" text="NAME" />
+          <TableColumn fx:id="tblCandidatePosition" minWidth="0.0" prefWidth="269.5999755859375" text="POSITION" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="cbxCandidatePosition" layoutX="287.0" layoutY="114.0" prefHeight="26.0" prefWidth="99.0" />
+   </children>
+</AnchorPane>

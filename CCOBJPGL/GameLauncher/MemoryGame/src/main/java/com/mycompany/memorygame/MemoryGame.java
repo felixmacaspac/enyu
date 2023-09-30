@@ -78,7 +78,7 @@ public class MemoryGame extends javax.swing.JFrame {
         cardImages = new ImageIcon[16];
         for (int i = 0; i < 8; i++) {
             try {
-                cardImages[i] = new ImageIcon(ImageIO.read(new FileInputStream("/home/felixdev/NetBeansProjects/MemoryGame/icons/card" + (i + 1) + ".png")));
+                cardImages[i] = new ImageIcon(ImageIO.read(new FileInputStream("/Users/felixmacaspac/Documents/univ/enyu/CCOBJPGL/GameLauncher/MemoryGame/icons/card" + (i + 1) + ".png")));
                 cardImages[i + 8] = cardImages[i]; // Duplicate the image for the matching pair
             } catch (IOException e) {
                 e.printStackTrace();

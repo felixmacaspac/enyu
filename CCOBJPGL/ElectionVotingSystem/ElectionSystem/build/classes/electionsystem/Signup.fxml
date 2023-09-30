@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="426.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="electionsystem.SignupController">
+   <children>
+      <Text fill="#0084e3" layoutX="35.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to NU Election">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <Text fill="#797979" layoutX="35.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register your account" />
+      <TextField fx:id="txtFirstName" layoutX="35.0" layoutY="125.0" prefHeight="42.0" prefWidth="243.0" promptText="Juan" />
+      <TextField fx:id="txtEmail" layoutX="35.0" layoutY="205.0" prefHeight="42.0" prefWidth="243.0" promptText="delacruzjuan@students.nu-dasma.edu.ph" />
+      <ImageView fitHeight="71.0" fitWidth="58.0" layoutX="503.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\felix\Documents\NetBeansProjects\ElectionSystem\assets\nu_logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0084e3" layoutX="36.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#0084e3" layoutX="36.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NU Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#0084e3" layoutX="35.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtLastName" layoutX="318.0" layoutY="125.0" prefHeight="42.0" prefWidth="243.0" promptText="Dela Cruz" />
+      <TextField fx:id="txtStudentID" layoutX="318.0" layoutY="205.0" prefHeight="42.0" prefWidth="243.0" promptText="2022-123456" />
+      <Text fill="#0084e3" layoutX="319.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#0084e3" layoutX="319.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#0084e3" layoutX="318.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnSignup" layoutX="207.0" layoutY="356.0" mnemonicParsing="false" onAction="#actSignup" prefHeight="32.0" prefWidth="186.0" style="-fx-background-color: #0084E3;" text="SIGN UP" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txtNewPassword" layoutX="35.0" layoutY="288.0" prefHeight="42.0" prefWidth="243.0" promptText="Password" />
+      <PasswordField fx:id="txtConfirmPassword" layoutX="319.0" layoutY="288.0" prefHeight="42.0" prefWidth="243.0" promptText="Re-type Password" />
+   </children>
+</AnchorPane>
