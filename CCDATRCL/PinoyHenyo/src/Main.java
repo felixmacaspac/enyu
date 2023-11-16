@@ -37,7 +37,10 @@ public class Main {
             // Branch for animal
             root.left = new Node("Q. Is it an animal?");
             root.left.left = new Node("Q. Does it fly");
-            root.left.left.left = new Node("A. Bird");
+            root.left.left.left = new Node("Q. Are they in the Philippines?");
+
+            root.left.left.left.left = new Node ("A. Philippine Eagle");
+            root.left.left.left.right = new Node ("A. Vulture");
 
             root.left.left.right = new Node("Q. Does it have a tail?");
             root.left.left.right.left = new Node("A. Dog");
@@ -64,7 +67,13 @@ public class Main {
             // Branch for place
             root.right = new Node("Q. Is it a place?");
             root.right.left = new Node("Q. Is it a tourist spot?");
-            root.right.left.left = new Node("A. Beach");
+            root.right.left.left = new Node("Q. Is it Local?");
+            root.right.left.left.left = new Node ("A. Boracay");
+
+
+            root.right.left.right = new Node ("Q. Is it crowded?");
+            root.right.left.right.left = new Node ("A. Market");
+            root.right.left.right.right = new Node ("A. Church");
 
             // Branch for food
             root.right.right = new Node("Q. Is it a food?");
@@ -75,6 +84,8 @@ public class Main {
             root.right.right.right = new Node("Q. Is it a thing?");
             root.right.right.right.left = new Node("Q. Is it fragile?");
             root.right.right.right.left.left = new Node("A. Glass?");
+            root.right.right.right.left.right = new Node ("Q. Is it Flexible?");
+            root.right.right.right.left.left.left = new Node ("A. Rubber");
         }
 
     }
