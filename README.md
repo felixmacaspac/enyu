@@ -23,7 +23,9 @@ This repository contains most of the projects/activities I did on [University](h
 ```
 1. CCDATRCL - Data Structures & Algorithms
 2. CCDISTR2 - Discrete Structures 2
-2. CTINFMGL - Information Management
+3. CTINFMGL - Information Management
+4. CTADVDBL - Advance Database System
+5. CCALCOMP - Algorithms & Complexity
 ```
 
 </details>
